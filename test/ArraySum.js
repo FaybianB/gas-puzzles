@@ -6,7 +6,6 @@ const helpers = require('@nomicfoundation/hardhat-network-helpers');
 use(require('chai-as-promised'));
 
 const TARGET_GAS_PRICE = 23_396;
-const EIGHT_DAYS = 60 * 60 * 24 * 8;
 
 const logGasUsage = (currentGasUsage) => {
     const diff = TARGET_GAS_PRICE - currentGasUsage;
